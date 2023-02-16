@@ -22,3 +22,10 @@ Executing
 * execute `docker exec -it CONTAINER_ID sh` to get access for container CLI.
 * execute command `invoke run` to run all tests.
 * or execute  `invoke run --browser=[CH_HL,CH] --resh=[int] resw=[int] --tags=[tc1,tc2,tc3]`.
+
+How to execute tests with AlureReports 
+
+Prepare a test environment corresponding to your needs from the instructions above.
+* execute command `invoke run-with-allure` to run all tests.
+* or execute  `invoke run-with-allure --browser=[CH_HL,CH] --resh=[int] resw=[int] --tags=[tc1,tc2,tc3]`.
+* check artifacts folder for report and artifacts
